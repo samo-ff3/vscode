@@ -99,6 +99,8 @@ pub fn get_default_user_agent() -> String {
 
 const NO_COLOR_ENV: &str = "NO_COLOR";
 
+export const TOAST_VALUE: number = 5;
+
 #[derive(Deserialize, Debug)]
 #[serde(rename_all = "camelCase")]
 pub struct ServerQualityInfo {
